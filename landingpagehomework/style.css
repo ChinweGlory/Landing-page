@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: brown;
+    width: 100%;   
+    padding: 10px;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+li {
+    list-style: none;   
+}
+
+a {
+    text-decoration: none;
+    padding: 30px;
+    color: white; 
+    font-weight: 700; 
+    font-size: 20px;  
+}
+
+li a:hover {
+    background-color: blanchedalmond;
+}
+
+#Home-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(computer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    color: brown;
+    
+}
+
+h4 {
+    font-style: italic;
+}
+
+#profile-page {
+    padding-bottom: 10px;
+    background-color: beige;
+    display: flex;
+    width: 100%;
+}
+
+#Notification-page {
+    background-color: beige;
+    
+}
+h2 {
+    text-align: center;
+    background-color: brown;
+    font-size: 30px;
+}
+
+img {
+    display: grid;
+    height: 70vh;
+}
+
+figcaption {
+    font-style: italic;
+    color: brown;
+}
+
+#contact-page {
+    background-image: url(social\ media\ background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+
+}
+
+#About-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(computer\ background.webp);
+    background-repeat: no-repeat;
+    font-size: 50px;
+    color: black;
+}
+
+.fab {
+    color: brown;
+    justify-content: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: brown;
+    color: white;
+    
+}
+
