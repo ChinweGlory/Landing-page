@@ -31,7 +31,7 @@ a {
 }
 
 li a:hover {
-    background-color: blanchedalmond;
+    color: red;
 }
 
 #Home-page {
@@ -40,10 +40,10 @@ li a:hover {
     text-align: center;
     justify-content: center;
     width: 100%;
-    height: 80vh;
-    background-image: url(computer.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+    background-image: url(images/computer\ background.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
     font-size: 50px;
     color: brown;
     
@@ -57,7 +57,12 @@ h4 {
     padding-bottom: 10px;
     background-color: beige;
     display: flex;
+    
+}
+
+.profile {
     width: 100%;
+    height: 100%;
 }
 
 #Notification-page {
@@ -68,11 +73,12 @@ h2 {
     text-align: center;
     background-color: brown;
     font-size: 30px;
+    padding: 20px;
 }
 
 img {
     display: grid;
-    height: 70vh;
+    height: 100vh;
 }
 
 figcaption {
@@ -80,7 +86,7 @@ figcaption {
     color: brown;
 }
 
-#contact-page {
+/* #contact-page {
     background-image: url(social\ media\ background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +97,7 @@ figcaption {
     justify-content: center;
     font-size: 30px
 
-}
+} */
 
 #About-page {
     display: flex;
@@ -99,9 +105,10 @@ figcaption {
     text-align: center;
     justify-content: center;
     width: 100%;
-    height: 80vh;
-    background-image: url(computer\ background.webp);
+    height: 100vh;
+    background-image: url(images/social\ media\ background.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
     font-size: 50px;
     color: black;
 }
@@ -115,8 +122,9 @@ figcaption {
 footer {
     display: flex;
     justify-content: flex-end;
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 0.299);
     color: white;
+    padding: 20px;
     
 }
 
